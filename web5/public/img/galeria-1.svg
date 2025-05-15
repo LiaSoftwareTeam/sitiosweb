@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Fondo con color suave -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Marco de la imagen -->
+  <rect x="50" y="50" width="700" height="500" fill="#ffffff" stroke="#dee2e6" stroke-width="2" />
+  
+  <!-- Representación de un aula moderna -->
+  <!-- Pizarra interactiva -->
+  <rect x="150" y="100" width="500" height="300" fill="#e9ecef" stroke="#6c757d" stroke-width="3" />
+  
+  <!-- Contenido en la pizarra -->
+  <text x="400" y="150" font-family="Arial" font-size="24" fill="#212529" text-anchor="middle">Centro Educativo Innovador</text>
+  <line x1="200" y1="180" x2="600" y2="180" stroke="#495057" stroke-width="2" />
+  
+  <!-- Gráfico de barras simple en la pizarra -->
+  <rect x="250" y="220" width="40" height="120" fill="#4cc9f0" />
+  <rect x="310" y="200" width="40" height="140" fill="#4361ee" />
+  <rect x="370" y="250" width="40" height="90" fill="#3a0ca3" />
+  <rect x="430" y="180" width="40" height="160" fill="#7209b7" />
+  <rect x="490" y="230" width="40" height="110" fill="#f72585" />
+  
+  <!-- Escritorios/mesas -->
+  <g transform="translate(200, 450)">
+    <rect x="0" y="0" width="100" height="60" fill="#ced4da" rx="5" ry="5" />
+    <rect x="40" y="-10" width="20" height="10" fill="#adb5bd" />
+  </g>
+  
+  <g transform="translate(350, 450)">
+    <rect x="0" y="0" width="100" height="60" fill="#ced4da" rx="5" ry="5" />
+    <rect x="40" y="-10" width="20" height="10" fill="#adb5bd" />
+  </g>
+  
+  <g transform="translate(500, 450)">
+    <rect x="0" y="0" width="100" height="60" fill="#ced4da" rx="5" ry="5" />
+    <rect x="40" y="-10" width="20" height="10" fill="#adb5bd" />
+  </g>
+  
+  <!-- Elementos decorativos: plantas educativas -->
+  <g transform="translate(100, 420)">
+    <rect x="0" y="0" width="30" height="40" fill="#adb5bd" rx="2" ry="2" />
+    <path d="M15,0 Q5,-20 15,-40 Q25,-20 15,0" fill="#40916c" />
+    <path d="M15,0 Q0,-15 -10,-30 Q10,-25 15,0" fill="#52b788" />
+    <path d="M15,0 Q30,-15 40,-30 Q20,-25 15,0" fill="#74c69d" />
+  </g>
+  
+  <g transform="translate(650, 420)">
+    <rect x="0" y="0" width="30" height="40" fill="#adb5bd" rx="2" ry="2" />
+    <path d="M15,0 Q5,-20 15,-40 Q25,-20 15,0" fill="#40916c" />
+    <path d="M15,0 Q0,-15 -10,-30 Q10,-25 15,0" fill="#52b788" />
+    <path d="M15,0 Q30,-15 40,-30 Q20,-25 15,0" fill="#74c69d" />
+  </g>
+  
+  <!-- Título de la imagen -->
+  <text x="400" y="550" font-family="Arial" font-size="18" fill="#212529" text-anchor="middle">Aulas Modernas y Tecnológicas</text>
+</svg>

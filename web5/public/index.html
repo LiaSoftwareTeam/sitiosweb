@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Educativo Innovador</title>
+    <meta name="description" content="Centro educativo con enfoque tecnológico e innovador para formación integral de estudiantes">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/accessibility.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Enlace de salto para accesibilidad -->
+    <!-- <a href="#main-content" class="skip-link">Saltar al contenido principal</a> -->
+    
+    <!-- Menú de navegación sticky -->
+    <header class="header" role="banner">
+        <div class="container">
+            <nav class="navbar" role="navigation" aria-label="Menú principal">
+                <div class="logo">
+                    <a href="#" aria-label="Inicio - Centro Educativo">Centro<span>Educativo</span></a>
+                </div>
+                <div class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú de navegación">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </div>
+                <ul class="nav-menu" id="nav-menu" role="menubar">
+                    <li role="none"><a href="#inicio" class="active" role="menuitem" aria-current="page">Inicio</a></li>
+                    <li role="none"><a href="#nosotros" role="menuitem">Nosotros</a></li>
+                    <li role="none"><a href="#oferta-educativa" role="menuitem">Oferta Educativa</a></li>
+                    <li role="none"><a href="#noticias" role="menuitem">Noticias</a></li>
+                    <li role="none"><a href="#galeria" role="menuitem">Galería</a></li>
+                    <li role="none"><a href="#contacto" class="btn-contacto" role="menuitem">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section con Parallax -->
+    <main id="main-content">
+    <section id="inicio" class="hero parallax-section" aria-label="Sección de inicio">
+        <div class="parallax-bg" style="background-image: url('img/hero-bg.svg');"></div>
+        <div class="hero-content">
+            <h1>Formando el futuro con innovación y excelencia</h1>
+            <p>Educación integral con enfoque tecnológico para los líderes del mañana</p>
+            <a href="#oferta-educativa" class="btn btn-primary">Oferta Educativa</a>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="section" aria-labelledby="nosotros-heading">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="nosotros-heading">Nosotros</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="nosotros-content">
+                <div class="nosotros-text">
+                    <h3>Nuestra Historia</h3>
+                    <p>Fundado en 2005, nuestro centro educativo nació con la visión de transformar la educación tradicional, incorporando tecnología e innovación pedagógica para preparar a los estudiantes para los desafíos del siglo XXI.</p>
+                    <p>Hoy, contamos con un equipo de más de 50 docentes especializados y más de 500 estudiantes que forman parte de nuestra comunidad educativa comprometida con la excelencia.</p>
+                    <div class="valores">
+                        <div class="valor">
+                            <i class="fas fa-brain"></i>
+                            <h4>Innovación</h4>
+                        </div>
+                        <div class="valor">
+                            <i class="fas fa-users"></i>
+                            <h4>Comunidad</h4>
+                        </div>
+                        <div class="valor">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4>Creatividad</h4>
+                        </div>
+                        <div class="valor">
+                            <i class="fas fa-globe"></i>
+                            <h4>Globalidad</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="nosotros-image">
+                    <img src="img/equipo-docente.svg" alt="Equipo docente">
+                </div>
+            </div>
+
+            <div class="equipo">
+                <h3>Nuestro Equipo Directivo</h3>
+                <div class="equipo-grid">
+                    <div class="miembro">
+                        <div class="miembro-img">
+                            <img src="https://plus.unsplash.com/premium_photo-1682096259050-361e2989706d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG9tYnJlJTIwam92ZW58ZW58MHx8MHx8fDA%3D" alt="Director">
+                        </div>
+                        <h4>Dr. Carlos Mendoza</h4>
+                        <p>Director General</p>
+                    </div>
+                    <div class="miembro">
+                        <div class="miembro-img">
+                            <img src="https://www.unwomen.org/sites/default/files/Communications/Headquarters/Images/02_WhatWeDo_LeadershipAndPoliticalParticipation_675x350.jpg?la=en" alt="Coordinadora Académica">
+                        </div>
+                        <h4>Dra. Laura Sánchez</h4>
+                        <p>Coordinadora Académica</p>
+                    </div>
+                    <div class="miembro">
+                        <div class="miembro-img">
+                            <img src="https://img.freepik.com/foto-gratis/guapo-hombre-barbudo-confiado-traje-elegante-apuntando-esquina-superior-izquierda-sonriendo-alegremente-dar-consejos-donde-encontrar-mejores-ofertas-venta-recomendar-producto-sonrisa-complacido-fondo-blanco-pie_176420-51698.jpg?semt=ais_hybrid&w=740" alt="Director de Innovación">
+                        </div>
+                        <h4>Ing. Martín Herrera</h4>
+                        <p>Director de Innovación</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Oferta Educativa con Parallax -->
+    <section id="oferta-educativa" class="section parallax-section" aria-labelledby="oferta-heading">
+        <div class="parallax-bg" style="background-image: url('img/hero-bg.svg');"></div>
+        <div class="container">
+            <div class="section-header light">
+                <h2 id="oferta-heading">Oferta Educativa</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="niveles">
+                <div class="nivel">
+                    <div class="nivel-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>Primaria</h3>
+                    <p>Formación integral con énfasis en el desarrollo de habilidades cognitivas, socioemocionales y creativas. Incorporamos tecnología educativa y metodologías activas.</p>
+                    <ul>
+                        <li>Programa bilingüe intensivo</li>
+                        <li>Talleres de robótica y programación</li>
+                        <li>Educación artística y deportiva</li>
+                        <li>Aprendizaje basado en proyectos</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Más información</a>
+                </div>
+                <div class="nivel">
+                    <div class="nivel-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Secundaria</h3>
+                    <p>Preparación académica de excelencia con enfoque en el desarrollo de competencias para la vida universitaria y profesional. Fomentamos el pensamiento crítico y la autonomía.</p>
+                    <ul>
+                        <li>Bachillerato internacional</li>
+                        <li>Laboratorios de ciencias avanzados</li>
+                        <li>Programa de emprendimiento</li>
+                        <li>Orientación vocacional personalizada</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Más información</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Noticias y Eventos -->
+    <section id="noticias" class="section" aria-labelledby="noticias-heading">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="noticias-heading">Noticias y Eventos</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="noticias-grid">
+                <article class="noticia">
+                    <div class="noticia-img">
+                        <img src="img/noticias.svg" alt="Feria de Ciencias">
+                        <div class="fecha">15 Jun</div>
+                    </div>
+                    <div class="noticia-content">
+                        <h3>Feria de Ciencias e Innovación 2023</h3>
+                        <p>Nuestros estudiantes presentaron más de 50 proyectos innovadores en la feria anual, destacando soluciones tecnológicas para problemas ambientales.</p>
+                        <a href="#" class="leer-mas">Leer más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="noticia">
+                    <div class="noticia-img">
+                        <img src="img/noticias.svg" alt="Olimpiadas Matemáticas">
+                        <div class="fecha">28 May</div>
+                    </div>
+                    <div class="noticia-content">
+                        <h3>Primer lugar en Olimpiadas Matemáticas</h3>
+                        <p>El equipo de secundaria obtuvo el primer lugar en las Olimpiadas Matemáticas Nacionales, demostrando excelencia académica y trabajo en equipo.</p>
+                        <a href="#" class="leer-mas">Leer más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="noticia">
+                    <div class="noticia-img">
+                        <img src="img/noticias.svg" alt="Conferencia Educativa">
+                        <div class="fecha">10 May</div>
+                    </div>
+                    <div class="noticia-content">
+                        <h3>Conferencia Internacional de Educación Innovadora</h3>
+                        <p>Nuestro centro educativo fue sede de la Conferencia Internacional de Educación Innovadora, con ponentes de renombre mundial en pedagogía y tecnología educativa.</p>
+                        <a href="#" class="leer-mas">Leer más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+            <div class="center-btn">
+                <a href="#" class="btn btn-primary">Ver todas las noticias</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Carreras Técnicas -->
+    <section id="carreras-tecnicas" class="section" aria-labelledby="carreras-heading">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="carreras-heading">Carreras Técnicas</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="galeria-grid" role="list">
+                <div class="galeria-item" role="listitem">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&q=80&w=800" alt="Estudiantes trabajando en computadoras en el laboratorio de informática">
+                    <div class="galeria-overlay">
+                        <h3 id="informatica-heading">Informática</h3>
+                        <a href="#" class="galeria-link" aria-labelledby="informatica-heading" aria-label="Más información sobre la carrera de Informática"><i class="fas fa-info-circle" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="galeria-item" role="listitem">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&q=80&w=800" alt="Estudiantes de enfermería practicando en un laboratorio clínico">
+                    <div class="galeria-overlay">
+                        <h3 id="enfermeria-heading">Enfermería</h3>
+                        <a href="#" class="galeria-link" aria-labelledby="enfermeria-heading" aria-label="Más información sobre la carrera de Enfermería"><i class="fas fa-info-circle" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="galeria-item" role="listitem">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&q=80&w=800" alt="Estudiantes analizando documentos financieros y gráficos contables">
+                    <div class="galeria-overlay">
+                        <h3 id="contabilidad-heading">Contabilidad</h3>
+                        <a href="#" class="galeria-link" aria-labelledby="contabilidad-heading" aria-label="Más información sobre la carrera de Contabilidad"><i class="fas fa-info-circle" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="galeria-item" role="listitem">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&q=80&w=800" alt="Estudiantes practicando técnicas de venta y atención al cliente">
+                    <div class="galeria-overlay">
+                        <h3 id="comercio-heading">Comercio</h3>
+                        <a href="#" class="galeria-link" aria-labelledby="comercio-heading" aria-label="Más información sobre la carrera de Comercio"><i class="fas fa-info-circle" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="galeria-item" role="listitem">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&q=80&w=800" alt="Estudiantes desarrollando estrategias de marketing y publicidad">
+                    <div class="galeria-overlay">
+                        <h3 id="mercadeo-heading">Mercadeo</h3>
+                        <a href="#" class="galeria-link" aria-labelledby="mercadeo-heading" aria-label="Más información sobre la carrera de Mercadeo"><i class="fas fa-info-circle" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="galeria-item" role="listitem">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&q=80&w=800" alt="Estudiantes practicando técnicas culinarias en una cocina profesional">
+                    <div class="galeria-overlay">
+                        <h3 id="cocina-heading">Cocina</h3>
+                        <a href="#" class="galeria-link" aria-labelledby="cocina-heading" aria-label="Más información sobre la carrera de Cocina"><i class="fas fa-info-circle" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto con Parallax -->
+    <section id="contacto" class="section parallax-section" aria-labelledby="contacto-heading">
+        <div class="parallax-bg" style="background-image: url('img/hero-bg.svg');"></div>
+        <div class="container">
+            <div class="section-header light">
+                <h2 id="contacto-heading">Contacto</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="contacto-content">
+                <div class="contacto-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Dirección</h3>
+                            <p>Av. Educación 1250, Colonia Moderna</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p>+52 (123) 456-7890</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@centroeducativo.edu</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horario de atención</h3>
+                            <p>Lunes a Viernes: 8:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="redes-sociales">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contacto-form">
+                    <form id="formulario-contacto" aria-labelledby="form-heading">
+                        <h3 id="form-heading" class="sr-only">Formulario de contacto</h3>
+                        <div class="form-group">
+                            <label for="nombre" class="sr-only">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="sr-only">Correo electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="Correo electrónico" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono" class="sr-only">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" aria-required="false">
+                        </div>
+                        <div class="form-group">
+                            <label for="asunto" class="sr-only">Asunto</label>
+                            <select id="asunto" name="asunto" required aria-required="true">
+                                <option value="" disabled selected>Seleccione un asunto</option>
+                                <option value="informacion">Información general</option>
+                                <option value="admisiones">Proceso de admisión</option>
+                                <option value="visita">Agendar visita</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje" class="sr-only">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required aria-required="true"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" aria-label="Enviar formulario de contacto">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">Centro<span>Educativo</span></a>
+                    <p>Formando el futuro con innovación y excelencia</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#oferta-educativa">Oferta Educativa</a></li>
+                        <li><a href="#noticias">Noticias</a></li>
+                        <li><a href="#carreras-tecnicas">Carreras Técnicas</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Recursos</h3>
+                    <ul>
+                        <li><a href="#">Calendario escolar</a></li>
+                        <li><a href="#">Portal para padres</a></li>
+                        <li><a href="#">Portal para estudiantes</a></li>
+                        <li><a href="#">Biblioteca digital</a></li>
+                        <li><a href="#">Bolsa de trabajo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Boletín informativo</h3>
+                    <p>Suscríbete para recibir noticias y eventos</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Centro Educativo. Todos los derechos reservados.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Política de privacidad</a>
+                    <a href="#">Términos y condiciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón de regreso arriba -->
+    <a href="#" class="back-to-top" id="back-to-top" aria-label="Volver arriba">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </a>
+    
+    <!-- Botón de accesibilidad -->
+    <div class="accessibility-toggle" id="accessibility-toggle" tabindex="0" role="button" aria-label="Opciones de accesibilidad" aria-expanded="false" aria-controls="accessibility-panel">
+        <i class="fas fa-universal-access" aria-hidden="true"></i>
+    </div>
+    
+    <!-- Panel de accesibilidad -->
+    <div class="accessibility-panel" id="accessibility-panel" role="dialog" aria-labelledby="accessibility-heading">
+        <h3 id="accessibility-heading">Opciones de accesibilidad</h3>
+        <div class="accessibility-option">
+            <label for="high-contrast">
+                <input type="checkbox" id="high-contrast"> Alto contraste
+            </label>
+        </div>
+        <div class="accessibility-option">
+            <label for="large-text">
+                <input type="checkbox" id="large-text"> Texto ampliado
+            </label>
+        </div>
+        <div class="accessibility-option">
+            <label for="text-spacing">
+                <input type="checkbox" id="text-spacing"> Espaciado de texto
+            </label>
+        </div>
+        <div class="accessibility-option">
+            <label for="large-cursor">
+                <input type="checkbox" id="large-cursor"> Cursor ampliado
+            </label>
+        </div>
+        <div class="accessibility-option">
+            <label for="text-to-speech">
+                <input type="checkbox" id="text-to-speech"> Texto a voz
+            </label>
+            <p class="option-description">Activa esta opción y haz clic en cualquier texto para escucharlo</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/accessibility.js"></script>
+</body>
+</html>

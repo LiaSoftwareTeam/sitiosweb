@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josias - Aprende, crece y transforma tu futuro</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header y Navegación -->
+    <header>
+        <div class="container">
+            <div class="logo">Josias</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#equipo">Equipo</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section con Slider -->
+    <section id="home" class="hero">
+        <div class="slider">
+            <div class="slide active" style="background-image: url('img/slider1.svg');"></div>
+            <div class="slide" style="background-image: url('img/slider2.svg');"></div>
+            <div class="slide" style="background-image: url('img/slider3.svg');"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="fade-in">Aprende, crece y transforma tu futuro</h1>
+            <a href="#about" class="btn btn-primary">Ver más</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Josias</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/about.svg" alt="Sobre Josias">
+                </div>
+                <div class="about-text">
+                    <p>En Josias, creemos en el poder transformador de la educación. Nuestra misión es proporcionar experiencias de aprendizaje excepcionales que inspiren, capaciten y transformen vidas.</p>
+                    <p>Con un enfoque centrado en el estudiante y metodologías innovadoras, nos dedicamos a cultivar el potencial de cada individuo, preparándolos para los desafíos del mundo actual y futuro.</p>
+                    <p>Nuestro equipo de profesionales apasionados trabaja incansablemente para crear un ambiente de aprendizaje dinámico, inclusivo y enriquecedor donde cada estudiante pueda descubrir su verdadero potencial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cursos Section -->
+    <section id="cursos" class="cursos">
+        <div class="container">
+            <h2 class="section-title">Nuestros Cursos</h2>
+            <div class="cursos-container">
+                <div class="curso-card">
+                    <div class="curso-img">
+                        <img src="img/curso1.svg" alt="Curso de Desarrollo Web">
+                    </div>
+                    <div class="curso-content">
+                        <h3>Desarrollo Web</h3>
+                        <p>Aprende a crear sitios web modernos con HTML, CSS y JavaScript. Domina las tecnologías fundamentales del desarrollo web.</p>
+                    </div>
+                </div>
+                <div class="curso-card">
+                    <div class="curso-img">
+                        <img src="img/curso2.svg" alt="Curso de Diseño UX/UI">
+                    </div>
+                    <div class="curso-content">
+                        <h3>Diseño UX/UI</h3>
+                        <p>Descubre cómo crear experiencias de usuario excepcionales y diseños de interfaz atractivos que cautiven a tu audiencia.</p>
+                    </div>
+                </div>
+                <div class="curso-card">
+                    <div class="curso-img">
+                        <img src="img/curso3.svg" alt="Curso de Marketing Digital">
+                    </div>
+                    <div class="curso-content">
+                        <h3>Marketing Digital</h3>
+                        <p>Domina las estrategias y herramientas del marketing digital para impulsar tu negocio o marca personal en el mundo online.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="center-btn">
+                <a href="#" class="btn btn-secondary">Ver todos los cursos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipo Section -->
+    <section id="equipo" class="equipo">
+        <div class="container">
+            <h2 class="section-title">Nuestro Equipo</h2>
+            <div class="filtros">
+                <button class="filtro-btn active" data-filter="todos">Todos</button>
+                <button class="filtro-btn" data-filter="Docencia">Docencia</button>
+                <button class="filtro-btn" data-filter="Desarrollo">Desarrollo</button>
+                <button class="filtro-btn" data-filter="Diseño">Diseño</button>
+                <button class="filtro-btn" data-filter="Marketing">Marketing</button>
+            </div>
+            <div class="equipo-container">
+                <div class="miembro-card" data-area="Docencia">
+                    <div class="miembro-img">
+                        <img src="img/team-profile.svg" alt="Ana Martínez">
+                    </div>
+                    <div class="miembro-info">
+                        <h3>Ana Martínez</h3>
+                        <p class="rol">Directora Académica</p>
+                        <p class="area">Docencia</p>
+                    </div>
+                </div>
+                <div class="miembro-card" data-area="Docencia">
+                    <div class="miembro-img">
+                        <img src="img/team-profile.svg" alt="Carlos Rodríguez">
+                    </div>
+                    <div class="miembro-info">
+                        <h3>Carlos Rodríguez</h3>
+                        <p class="rol">Profesor Senior</p>
+                        <p class="area">Docencia</p>
+                    </div>
+                </div>
+                <div class="miembro-card" data-area="Desarrollo">
+                    <div class="miembro-img">
+                        <img src="img/team-profile.svg" alt="Laura Gómez">
+                    </div>
+                    <div class="miembro-info">
+                        <h3>Laura Gómez</h3>
+                        <p class="rol">Lead Developer</p>
+                        <p class="area">Desarrollo</p>
+                    </div>
+                </div>
+                <div class="miembro-card" data-area="Desarrollo">
+                    <div class="miembro-img">
+                        <img src="img/team-profile.svg" alt="Miguel Sánchez">
+                    </div>
+                    <div class="miembro-info">
+                        <h3>Miguel Sánchez</h3>
+                        <p class="rol">Full Stack Developer</p>
+                        <p class="area">Desarrollo</p>
+                    </div>
+                </div>
+                <div class="miembro-card" data-area="Diseño">
+                    <div class="miembro-img">
+                        <img src="img/team-profile.svg" alt="Sofía López">
+                    </div>
+                    <div class="miembro-info">
+                        <h3>Sofía López</h3>
+                        <p class="rol">UX/UI Designer</p>
+                        <p class="area">Diseño</p>
+                    </div>
+                </div>
+                <div class="miembro-card" data-area="Diseño">
+                    <div class="miembro-img">
+                        <img src="img/team-profile.svg" alt="Pablo Fernández">
+                    </div>
+                    <div class="miembro-info">
+                        <h3>Pablo Fernández</h3>
+                        <p class="rol">Graphic Designer</p>
+                        <p class="area">Diseño</p>
+                    </div>
+                </div>
+                <div class="miembro-card" data-area="Marketing">
+                    <div class="miembro-img">
+                        <img src="img/team-profile.svg" alt="Elena Torres">
+                    </div>
+                    <div class="miembro-info">
+                        <h3>Elena Torres</h3>
+                        <p class="rol">Marketing Manager</p>
+                        <p class="area">Marketing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contacto-container">
+                <div class="formulario-container">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                            <span class="error-msg"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-msg"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                            <span class="error-msg"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="mapa-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9728951784844!2d-74.07882492426948!3d4.598794042504578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a1f30307cf%3A0xf9b0cee3c2b5c3c9!2sBogot%C3%A1%2C%20Colombia!5e0!3m2!1ses!2sco!4v1656432028040!5m2!1ses!2sco" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Josias</h3>
+                    <p>Aprende, crece y transforma tu futuro</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#cursos">Cursos</a></li>
+                        <li><a href="#equipo">Equipo</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Síguenos</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Josias. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
