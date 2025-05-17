@@ -88,7 +88,7 @@ const carrerasInfo = {
             <p>Forma profesionales capaces de desarrollar soluciones tecnológicas y mantener infraestructuras informáticas.</p>
             
             <h4>Duración</h4>
-            <p>2 años (4 semestres)</p>
+            <p>3 años</p>
             
             <h4>Plan de Estudios</h4>
             <ul>
@@ -115,7 +115,7 @@ const carrerasInfo = {
             <p>Prepara profesionales de la salud capacitados para brindar cuidados integrales a pacientes.</p>
             
             <h4>Duración</h4>
-            <p>3 años (6 semestres)</p>
+            <p>3 años</p>
             
             <h4>Plan de Estudios</h4>
             <ul>
@@ -142,7 +142,7 @@ const carrerasInfo = {
             <p>Forma profesionales expertos en el manejo y control de información financiera y contable.</p>
             
             <h4>Duración</h4>
-            <p>2 años (4 semestres)</p>
+            <p>3 años</p>
             
             <h4>Plan de Estudios</h4>
             <ul>
@@ -166,26 +166,26 @@ const carrerasInfo = {
         titulo: 'Técnico en Comercio',
         contenido: `
             <h3>Descripción del Programa</h3>
-            <p>Prepara profesionales en gestión comercial y técnicas de venta efectivas.</p>
+            <p>Forma profesionales capacitados en la producción agrícola y pecuaria, con conocimientos en manejo sostenible de recursos naturales y tecnología aplicada al campo.</p>
             
             <h4>Duración</h4>
-            <p>2 años (4 semestres)</p>
+            <p>3 años</p>
             
             <h4>Plan de Estudios</h4>
             <ul>
-                <li>Técnicas de venta</li>
-                <li>Marketing digital</li>
-                <li>Gestión de inventarios</li>
-                <li>Servicio al cliente</li>
-                <li>E-commerce</li>
+                 <li>Producción vegetal</li>
+  <li>Manejo de animales</li>
+  <li>Técnicas de riego y suelos</li>
+  <li>Agroindustria y transformación</li>
+  <li>Gestión ambiental y sostenibilidad</li>
             </ul>
             
             <h4>Oportunidades Laborales</h4>
             <ul>
-                <li>Ejecutivo de ventas</li>
-                <li>Gestor comercial</li>
-                <li>Supervisor de tienda</li>
-                <li>Coordinador de e-commerce</li>
+               <li>Técnico agropecuario</li>
+  <li>Encargado de finca o invernadero</li>
+  <li>Asistente en proyectos agrícolas</li>
+  <li>Supervisor de producción agropecuaria</li>
             </ul>
         `
     },
@@ -196,7 +196,7 @@ const carrerasInfo = {
             <p>Forma profesionales especializados en estrategias de marketing y promoción comercial.</p>
             
             <h4>Duración</h4>
-            <p>2 años (4 semestres)</p>
+            <p>3 años</p>
             
             <h4>Plan de Estudios</h4>
             <ul>
@@ -223,7 +223,7 @@ const carrerasInfo = {
             <p>Prepara profesionales en el arte culinario y la gestión de cocina.</p>
             
             <h4>Duración</h4>
-            <p>2 años (4 semestres)</p>
+            <p>3 años</p>
             
             <h4>Plan de Estudios</h4>
             <ul>
