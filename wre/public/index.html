@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politécnico WRE</title>
+    <meta name="description"
+        content="Centro educativo con enfoque tecnológico e innovador para formación integral de estudiantes">
+    <link rel="icon" type="image/png" href="img/Logo Liceo.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/accessibility.css">
+    <link rel="stylesheet" href="css/modals.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Enlace de salto para accesibilidad -->
+    <!-- <a href="#main-content" class="skip-link">Saltar al contenido principal</a> -->
+
+    <!-- Menú de navegación sticky -->
+    <header class="header" role="banner">
+        <div class="container">
+            <nav class="navbar" role="navigation" aria-label="Menú principal">
+                <div class="logo">
+                    <a href="#" aria-label="Inicio - Politécnico William Radhames Encarnación">
+                        <span>Politécnico WRE</span>
+                    </a>
+                </div>
+                <div class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-menu"
+                    aria-label="Abrir menú de navegación">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </div>
+                <nav class="nav-menu" id="nav-menu" role="navigation">
+                    <a href="#inicio" class="active nav-link" aria-current="page">Inicio</a>
+                    <a href="#nosotros" class="nav-link">Nosotros</a>
+                    <a href="#oferta-educativa" class="nav-link">Oferta Educativa</a>
+                    <!-- <a href="#noticias" class="nav-link">Noticias</a> -->
+                    <a href="#carreras-tecnicas" class="nav-link">Carreras Técnicas</a>
+                    <a href="#requisitos-inscripcion" class="nav-link">Requisitos</a>
+                    <a href="#contacto" class="btn-contacto nav-link">Contacto</a>
+                </nav>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section con Parallax y Carrusel -->
+    <main id="main-content">
+        <section id="inicio" class="hero parallax-section" aria-label="Sección de inicio">
+            <div class="carousel-container">
+                <div class="carousel-slide active" style="background-image: url('img/corrousel/16288.jpg');">
+                    <div class="parallax-overlay"></div>
+                </div>
+                <div class="carousel-slide" style="background-image: url('img/corrousel/1115.jpg');">
+                    <div class="parallax-overlay"></div>
+                </div>
+                <div class="carousel-slide" style="background-image: url('img/corrousel/2149305397.jpg');">
+                    <div class="parallax-overlay"></div>
+                </div>
+                <button class="carousel-btn prev" aria-label="Imagen anterior">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next" aria-label="Imagen siguiente">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="indicator active" aria-label="Ir a la imagen 1"></button>
+                    <button class="indicator" aria-label="Ir a la imagen 2"></button>
+                    <button class="indicator" aria-label="Ir a la imagen 3"></button>
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1>Politécnico William Radhames Encarnación</h1>
+                <p>Educación integral con enfoque tecnológico para los líderes del mañana</p>
+                <a href="#oferta-educativa" class="btn btn-primary">Oferta Educativa</a>
+            </div>
+        </section>
+
+        <!-- Sección Nosotros -->
+        <section id="nosotros" class="section" aria-labelledby="nosotros-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="nosotros-heading">Nosotros</h2>
+                    <div class="separator"></div>
+                </div>
+                <div class="nosotros-content">
+                    <div class="nosotros-text">
+                        <h3>Nuestro Centro</h3>
+                        <p>En nuestro liceo técnico, nos comprometemos con la formación y desarrollo integral de los
+                            jóvenes, respondiendo a las necesidades locales y nacionales mediante una oferta curricular
+                            actualizada. Promovemos valores como el respeto, la democracia, la ética, la solidaridad y
+                            la responsabilidad.</p>
+                        <p>Nuestra visión es insertar a los egresados en el trabajo productivo, impulsando los cambios
+                            socioeconómicos que requiere el país.</p>
+                        <div class="valores">
+                            <div class="valor">
+                                <i class="fas fa-brain"></i>
+                                <h4>Tolerancia</h4>
+                            </div>
+                            <div class="valor">
+                                <i class="fas fa-users"></i>
+                                <h4>Respeto</h4>
+                            </div>
+                            <div class="valor">
+                                <i class="fas fa-lightbulb"></i>
+                                <h4>Disciplina</h4>
+                            </div>
+                            <div class="valor">
+                                <i class="fas fa-globe"></i>
+                                <h4>Ética</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nosotros-image">
+                        <img src="img/about.jpeg" alt="Equipo docente" style="min-height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="equipo">
+                    <h3>Equipo administrativo</h3>
+                    <div class="equipo-grid">
+                        <div class="miembro">
+                            <div class="miembro-img">
+                                <img src="img/equipo/hilda velentin.jpeg" alt="Director">
+                            </div>
+                            <h4>Hilda Valentín</h4>
+                            <p>Directora | Licenciada en Educación Básica .</p>
+                        </div>
+                        <div class="miembro">
+                            <div class="miembro-img">
+                                <img src="img/equipo/luis mateo.jpeg" alt="Coordinadora Académica">
+                            </div>
+                            <h4>Luis Mateo</h4>
+                            <p>Licenciado en Informática</p>
+                        </div>
+                        <div class="miembro">
+                            <div class="miembro-img">
+                                <img src="img/equipo/berenice paniagua.jpeg">
+                            </div>
+                            <h4>Berenice Paniagua</h4>
+                            <p>Licenciado en Educación Mención Informática</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Oferta Educativa con Parallax -->
+        <section id="oferta-educativa" class="section parallax-section" aria-labelledby="oferta-heading">
+            <div class="parallax-bg" style="background-image: url('img/hero-bg.svg');"></div>
+            <div class="container">
+                <div class="section-header light">
+                    <h2 id="oferta-heading">Oferta Educativa</h2>
+                    <div class="separator"></div>
+                </div>
+                <div class="niveles">
+                    <div class="nivel">
+                        <div class="nivel-icon">
+                            <i class="fas fa-child"></i>
+                        </div>
+                        <h3>Educación Secundaria Técnica</h3>
+                        <p>Formación académica y técnica que combina las asignaturas básicas con competencias
+                            profesionales. Preparamos estudiantes capaces de integrarse al mundo laboral o continuar
+                            estudios superiores con una base sólida.</p>
+                        <ul>
+                            <li>Bachillerato técnico con especialidades actualizadas</li>
+                            <li>Fortalecimiento de habilidades lógico-matemáticas, lingüísticas y científicas</li>
+                            <li>Prácticas en entornos reales y simulados</li>
+                            <li>Desarrollo personal, ético y ciudadano</li>
+                        </ul>
+                        <a href="https://wa.me/18297640247?text=Saludos%20distinguida%20Hilda,%20me%20interesa%20obtener%20más%20información%20sobre%20la%20Educación%20Secundaria%20Técnica"
+                            class="btn btn-outline" target="_blank">Más información</a>
+                    </div>
+                    <div class="nivel">
+                        <div class="nivel-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3>Formación Técnica Especializada</h3>
+                        <p>Preparación académica de excelencia con enfoque en el desarrollo de competencias para la vida
+                            universitaria y profesional. Fomentamos el pensamiento crítico y la autonomía.</p>
+                        <ul>
+                            <li>Carreras técnicas en Informática, Agropecuaria, Enfermería y Contabilidad</li>
+                            <li>Laboratorios y espacios prácticos equipados</li>
+                            <li>Proyectos integradores y pasantías supervisadas</li>
+                            <li>Enlace con el sector laboral y oportunidades de emprendimiento</li>
+                        </ul>
+                        <a href="https://wa.me/18297640247?text=Saludos%20distinguida%20Hilda,%20me%20interesa%20obtener%20más%20información%20sobre%20la%20Formación%20Técnica%20Especializada"
+                            class="btn btn-outline" target="_blank">Más información</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Noticias y Eventos -->
+        <!-- <section id="noticias" class="section" aria-labelledby="noticias-heading">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="noticias-heading">Noticias y Eventos</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="noticias-grid">
+                <article class="noticia">
+                    <div class="noticia-img">
+                        <img src="img/noticias.svg" alt="Feria de Ciencias">
+                        <div class="fecha">15 Jun</div>
+                    </div>
+                    <div class="noticia-content">
+                        <h3>Feria de Ciencias e Innovación 2023</h3>
+                        <p>Nuestros estudiantes presentaron más de 50 proyectos innovadores en la feria anual, destacando soluciones tecnológicas para problemas ambientales.</p>
+                        <a href="#" class="leer-mas">Leer más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="noticia">
+                    <div class="noticia-img">
+                        <img src="img/noticias.svg" alt="Olimpiadas Matemáticas">
+                        <div class="fecha">28 May</div>
+                    </div>
+                    <div class="noticia-content">
+                        <h3>Primer lugar en Olimpiadas Matemáticas</h3>
+                        <p>El equipo de secundaria obtuvo el primer lugar en las Olimpiadas Matemáticas Nacionales, demostrando excelencia académica y trabajo en equipo.</p>
+                        <a href="#" class="leer-mas">Leer más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="noticia">
+                    <div class="noticia-img">
+                        <img src="img/noticias.svg" alt="Conferencia Educativa">
+                        <div class="fecha">10 May</div>
+                    </div>
+                    <div class="noticia-content">
+                        <h3>Conferencia Internacional de Educación Innovadora</h3>
+                        <p>Nuestro centro educativo fue sede de la Conferencia Internacional de Educación Innovadora, con ponentes de renombre mundial en pedagogía y tecnología educativa.</p>
+                        <a href="#" class="leer-mas">Leer más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+            <div class="center-btn">
+                <a href="#" class="btn btn-primary">Ver todas las noticias</a>
+            </div>
+        </div>
+    </section> -->
+
+        <!-- Sección Carreras Técnicas -->
+        <section id="carreras-tecnicas" class="section" aria-labelledby="carreras-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="carreras-heading">Carreras Técnicas</h2>
+                    <div class="separator"></div>
+                </div>
+                <div class="galeria-grid" role="list">
+                    <div class="galeria-item" role="listitem">
+                        <img loading="lazy"
+                            src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&q=80&w=800"
+                            alt="Estudiantes trabajando en computadoras en el laboratorio de informática">
+                        <div class="galeria-overlay">
+                            <h3 id="informatica-heading">Desarrollo y Administración de Aplicaciones Informáticas</h3>
+                            <a href="https://wa.me/18297640247?text=Saludos%20distinguida%20Hilda,%20me%20interesa%20obtener%20más%20información%20sobre%20la%20carrera%20técnica%20de%20Informática"
+                                class="galeria-link" aria-labelledby="informatica-heading"
+                                aria-label="Más información sobre la carrera de Informática" target="_blank"><i
+                                    class="fas fa-info-circle" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="galeria-item" role="listitem">
+                        <img loading="lazy"
+                            src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&q=80&w=800"
+                            alt="Estudiantes de enfermería practicando en un laboratorio clínico">
+                        <div class="galeria-overlay">
+                            <h3 id="enfermeria-heading" style="padding: 0 8px;">Cuidados de enfermería y promoción de la salud</h3>
+                            <a href="https://wa.me/18297640247?text=Saludos%20distinguida%20Hilda,%20me%20interesa%20obtener%20más%20información%20sobre%20la%20carrera%20técnica%20de%20Enfermería"
+                                class="galeria-link" aria-labelledby="enfermeria-heading"
+                                aria-label="Más información sobre la carrera de Enfermería" target="_blank"><i
+                                    class="fas fa-info-circle" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="galeria-item" role="listitem">
+                        <img loading="lazy"
+                            src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&q=80&w=800"
+                            alt="Estudiantes analizando documentos financieros y gráficos contables">
+                        <div class="galeria-overlay">
+                            <h3 id="contabilidad-heading">Gestión Administrativa y Tributaria</h3>
+                            <a href="https://wa.me/18297640247?text=Saludos%20distinguida%20Hilda,%20me%20interesa%20obtener%20más%20información%20sobre%20la%20carrera%20técnica%20de%20Contabilidad"
+                                class="galeria-link" aria-labelledby="contabilidad-heading"
+                                aria-label="Más información sobre la carrera de Contabilidad" target="_blank"><i
+                                    class="fas fa-info-circle" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="galeria-item" role="listitem">
+                        <img loading="lazy" src="https://eldinero.com.do/wp-content/uploads/aporte-agropecuaria.jpg"
+                            alt="Estudiantes practicando técnicas de venta y atención al cliente">
+                        <div class="galeria-overlay">
+                            <h3 id="comercio-heading">Agropecuaria</h3>
+                            <a href="https://wa.me/18297640247?text=Saludos%20distinguida%20Hilda,%20me%20interesa%20obtener%20más%20información%20sobre%20la%20carrera%20técnica%20de%20Agropecuaria"
+                                class="galeria-link" aria-labelledby="comercio-heading"
+                                aria-label="Más información sobre la carrera de Agropecuaria" target="_blank"><i
+                                    class="fas fa-info-circle" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Requisitos de Inscripción -->
+        <section id="requisitos-inscripcion" class="section" aria-labelledby="requisitos-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="requisitos-heading">Requisitos de Inscripción</h2>
+                    <div class="separator"></div>
+                </div>
+                <div class="requisitos-content">
+                    <div class="requisitos-info">
+                        <p class="requisitos-intro">Para formar parte de nuestra comunidad educativa, los aspirantes
+                            deben cumplir con los siguientes requisitos para poder ser parte de nuestra familia:</p>
+
+                        <div class="requisitos-grid">
+                            <div class="requisito-card">
+                                <div class="requisito-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <h3>Tutores</h3>
+                                <ul class="requisitos-list">
+                                    <li><i class="fas fa-check-circle"></i> Educar y orientar a sus hijos en valores y buen comportamiento</li>
+                                    <li><i class="fas fa-check-circle"></i> Ser responsables del seguimiento académico y disciplinario del estudiante</li>
+                                    <li><i class="fas fa-check-circle"></i> Asistir a reuniones y actividades escolares convocadas por el centro educativo</li>
+                                    <li><i class="fas fa-check-circle"></i> Mantener comunicación constante con los docentes y la dirección</li>
+                                    <li><i class="fas fa-check-circle"></i> Velar por la asistencia y puntualidad del estudiante</li>
+                                    <li><i class="fas fa-check-circle"></i> Respetar las normas y reglamentos de la institución</li>
+                                   
+                                </ul>
+                            </div>
+                            <div class="requisito-card">
+                                <div class="requisito-icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <h3>Secundaria</h3>
+                                <ul class="requisitos-list">
+                                    <li><i class="fas fa-check-circle"></i> Certificado de finalización del nivel
+                                        primario (6to grado)</li>
+                                    <li><i class="fas fa-check-circle"></i> Récord de calificaciones del último año
+                                        cursado</li>
+                                    <li><i class="fas fa-check-circle"></i> Cédula del padre, madre o tutor (copia)</li>
+                                    <li><i class="fas fa-check-circle"></i> 2 fotografías tamaño 2x2 del estudiante</li>
+                                    <li><i class="fas fa-check-circle"></i> Tarjeta de vacunación actualizada</li>
+                                    <li><i class="fas fa-check-circle"></i> Formulario de inscripción firmado por el
+                                        tutor</li>
+                                        <li><i class="fas fa-check-circle"></i> Prueba de admisión o entrevista diagnóstica (si aplica)</li>
+                                </ul>
+                            </div>
+                            <div class="requisito-card">
+                                <div class="requisito-icon">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <h3>Carreras Técnicas</h3>
+                                <ul class="requisitos-list">
+                                    <li><i class="fas fa-check-circle"></i> Acta de nacimiento (original y copia)</li>
+  <li><i class="fas fa-check-circle"></i> Certificado de finalización del nivel básico (8vo grado)</li>
+  <li><i class="fas fa-check-circle"></i> Récord de calificaciones del último año cursado</li>
+  <li><i class="fas fa-check-circle"></i> Cédula del padre, madre o tutor (copia)</li>
+  <li><i class="fas fa-check-circle"></i> 2 fotografías tamaño 2x2 del estudiante</li>
+  <li><i class="fas fa-check-circle"></i> Formulario de inscripción completo y firmado</li>
+  <li><i class="fas fa-check-circle"></i> Aprobar el examen de admisión de la carrera técnica</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="proceso-inscripcion">
+                            <h3>Proceso de Inscripción</h3>
+                            <div class="proceso-pasos">
+                                <div class="paso">
+                                    <div class="paso-numero">1</div>
+                                    <div class="paso-info">
+                                        <h4>Documentos</h4>
+                                        <p>Cédula del tutor, acta de nacimiento del estudiante, certificado de grado
+                                            anterior.</p>
+                                    </div>
+                                </div>
+                                <div class="paso">
+                                    <div class="paso-numero">2</div>
+                                    <div class="paso-info">
+                                        <h4>Examen</h4>
+                                        <p>Debe tomar el examen correspondiente a la carrera técnica de su interés.</p>
+                                    </div>
+                                </div>
+                                <div class="paso">
+                                    <div class="paso-numero">3</div>
+                                    <div class="paso-info">
+                                        <h4>Confirmar </h4>
+                                        <p>El personal escolar verifica y finaliza el proceso, asignando al estudiante
+                                            su grado correspondiente.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="requisitos-cta">
+                            <p>¿Tienes dudas sobre el proceso de inscripción? Contáctanos para recibir asesoría
+                                personalizada.</p>
+                            <div class="requisitos-buttons">
+                                <a href="https://wa.me/18297640247?text=Saludos%20distinguida%20Hilda,%20me%20gustaría%20solicitar%20información%20sobre%20los%20requisitos%20de%20inscripción%20en%20el%20Politécnico%20WRE"
+                                    class="btn btn-primary" target="_blank">Solicitar información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto con Parallax -->
+        <section id="contacto" class="section parallax-section" aria-labelledby="contacto-heading">
+            <div class="parallax-bg" style="background-image: url('img/hero-bg.svg');"></div>
+            <div class="container">
+                <div class="section-header light">
+                    <h2 id="contacto-heading">Contacto</h2>
+                    <div class="separator"></div>
+                </div>
+                <div class="contacto-content">
+                    <div class="contacto-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Dirección</h3>
+                                <p>Av. Educación 1250, Colonia Moderna</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h3>Teléfono</h3>
+                                <p>+1 (829) 764-0247</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>info@centroeducativo.edu</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Horario de atención</h3>
+                                <p>Lunes a Viernes: 8:00 AM - 4:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="redes-sociales">
+                            <a href="https://www.facebook.com/share/1AVYswYvka/?mibextid=wwXIfr" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/poltecnicowilliamr.encarnacion?igsh=MWUybXdvM21oOTcxaw%3D%3D&utm_source=qr" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.me/+18297640247" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacto-form">
+                        <form id="formulario-contacto" aria-labelledby="form-heading">
+                            <h3 id="form-heading" class="sr-only">Formulario de contacto</h3>
+                            <div class="form-group">
+                                <label for="nombre" class="sr-only">Nombre completo</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required
+                                    aria-required="true">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="sr-only">Correo electrónico</label>
+                                <input type="email" id="email" name="email" placeholder="Correo electrónico" required
+                                    aria-required="true">
+                            </div>
+                            <div class="form-group">
+                                <label for="telefono" class="sr-only">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono" placeholder="Teléfono"
+                                    aria-required="false">
+                            </div>
+                            <div class="form-group">
+                                <label for="asunto" class="sr-only">Asunto</label>
+                                <select id="asunto" name="asunto" required aria-required="true">
+                                    <option value="" disabled selected>Seleccione un asunto</option>
+                                    <option value="informacion">Información general</option>
+                                    <option value="admisiones">Proceso de admisión</option>
+                                    <option value="visita">Agendar visita</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="mensaje" class="sr-only">Mensaje</label>
+                                <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required
+                                    aria-required="true"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary"
+                                aria-label="Enviar formulario de contacto">Enviar mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">Centro<span>Educativo</span></a>
+                    <p>Formando el futuro con innovación y excelencia</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#oferta-educativa">Oferta Educativa</a></li>
+                        <li><a href="#noticias">Noticias</a></li>
+                        <li><a href="#carreras-tecnicas">Carreras Técnicas</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Recursos</h3>
+                    <ul>
+                        <li><a href="#">Calendario escolar</a></li>
+                        <li><a href="#">Portal para padres</a></li>
+                        <li><a href="#">Portal para estudiantes</a></li>
+                        <li><a href="#">Biblioteca digital</a></li>
+                        <li><a href="#">Bolsa de trabajo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Boletín informativo</h3>
+                    <p>Suscríbete para recibir noticias y eventos</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Politécnico William Radhames Encarnación. Todos los derechos reservados.</p>
+                <!-- <div class="footer-bottom-links">
+                        <a href="#">Creado</a>
+                    </div> -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón de regreso arriba -->
+    <a href="#" class="back-to-top" id="back-to-top" aria-label="Volver arriba">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </a>
+
+    <!-- Botón de accesibilidad -->
+    <div class="accessibility-toggle" id="accessibility-toggle" tabindex="0" role="button"
+        aria-label="Opciones de accesibilidad" aria-expanded="false" aria-controls="accessibility-panel">
+        <i class="fas fa-universal-access" aria-hidden="true"></i>
+    </div>
+
+    <!-- Panel de accesibilidad -->
+    <div class="accessibility-panel" id="accessibility-panel" role="dialog" aria-labelledby="accessibility-heading">
+        <h3 id="accessibility-heading">Opciones de accesibilidad</h3>
+        <div class="accessibility-option">
+            <label for="high-contrast">
+                <input type="checkbox" id="high-contrast"> Alto contraste
+            </label>
+        </div>
+        <div class="accessibility-option">
+            <label for="large-text">
+                <input type="checkbox" id="large-text"> Texto ampliado
+            </label>
+        </div>
+        <div class="accessibility-option">
+            <label for="text-spacing">
+                <input type="checkbox" id="text-spacing"> Espaciado de texto
+            </label>
+        </div>
+        <div class="accessibility-option">
+            <label for="large-cursor">
+                <input type="checkbox" id="large-cursor"> Cursor ampliado
+            </label>
+        </div>
+        <div class="accessibility-option">
+            <label for="text-to-speech">
+                <input type="checkbox" id="text-to-speech"> Texto a voz
+            </label>
+            <p class="option-description">Activa esta opción y haz clic en cualquier texto para escucharlo</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/accessibility.js"></script>
+    <script src="js/modals.js"></script>
+    <script src="js/carousel.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Fondo con color suave -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Marco de la imagen -->
+  <rect x="50" y="50" width="700" height="500" fill="#ffffff" stroke="#dee2e6" stroke-width="2" />
+  
+  <!-- Representación de un periódico/noticias escolares -->
+  <g transform="translate(150, 150)">
+    <!-- Periódico/boletín -->
+    <rect x="0" y="0" width="500" height="350" fill="#e9ecef" stroke="#adb5bd" stroke-width="2" />
+    
+    <!-- Encabezado del periódico -->
+    <rect x="0" y="0" width="500" height="50" fill="#4361ee" />
+    <text x="250" y="35" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">NOTICIAS ESCOLARES</text>
+    
+    <!-- Columnas de texto (simuladas) -->
+    <g fill="#6c757d">
+      <!-- Columna 1 -->
+      <rect x="20" y="70" width="140" height="10" />
+      <rect x="20" y="90" width="140" height="10" />
+      <rect x="20" y="110" width="140" height="10" />
+      <rect x="20" y="130" width="140" height="10" />
+      <rect x="20" y="150" width="140" height="10" />
+      <rect x="20" y="170" width="100" height="10" />
+      
+      <!-- Columna 2 -->
+      <rect x="180" y="70" width="140" height="10" />
+      <rect x="180" y="90" width="140" height="10" />
+      <rect x="180" y="110" width="140" height="10" />
+      <rect x="180" y="130" width="140" height="10" />
+      <rect x="180" y="150" width="140" height="10" />
+      <rect x="180" y="170" width="100" height="10" />
+      
+      <!-- Columna 3 -->
+      <rect x="340" y="70" width="140" height="10" />
+      <rect x="340" y="90" width="140" height="10" />
+      <rect x="340" y="110" width="140" height="10" />
+      <rect x="340" y="130" width="140" height="10" />
+      <rect x="340" y="150" width="140" height="10" />
+      <rect x="340" y="170" width="100" height="10" />
+    </g>
+    
+    <!-- Imágenes simuladas -->
+    <rect x="20" y="200" width="140" height="100" fill="#00b4d8" />
+    <rect x="180" y="200" width="140" height="100" fill="#7209b7" />
+    <rect x="340" y="200" width="140" height="100" fill="#f72585" />
+    
+    <!-- Pies de foto simulados -->
+    <rect x="20" y="310" width="140" height="10" fill="#6c757d" />
+    <rect x="180" y="310" width="140" height="10" fill="#6c757d" />
+    <rect x="340" y="310" width="140" height="10" fill="#6c757d" />
+  </g>
+  
+  <!-- Elementos decorativos: calendario escolar -->
+  <g transform="translate(650, 150)">
+    <rect x="0" y="0" width="80" height="80" fill="#dee2e6" stroke="#adb5bd" stroke-width="2" />
+    <text x="40" y="30" font-family="Arial" font-size="16" fill="#212529" text-anchor="middle" font-weight="bold">JUN</text>
+    <text x="40" y="60" font-family="Arial" font-size="30" fill="#212529" text-anchor="middle" font-weight="bold">15</text>
+  </g>
+  
+  <!-- Título de la imagen -->
+  <text x="400" y="550" font-family="Arial" font-size="18" fill="#212529" text-anchor="middle">Mantente al día con nuestras noticias y eventos</text>
+</svg>

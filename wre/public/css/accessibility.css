@@ -1,0 +1,248 @@
+/* Estilos para opciones de accesibilidad */
+
+/* Botón de accesibilidad */
+.accessibility-toggle {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-cian);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.accessibility-toggle:hover {
+    background-color: var(--color-verde-esmeralda);
+    transform: scale(1.1);
+}
+
+.accessibility-toggle i {
+    font-size: 1.5rem;
+    color: var(--color-negro-carbon);
+}
+
+/* Panel de accesibilidad */
+.accessibility-panel {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 280px;
+    background-color: var(--color-gris-grafito);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    transform: translateY(20px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.accessibility-panel.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.accessibility-panel h3 {
+    color: var(--color-blanco);
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    border-bottom: 1px solid var(--color-gris-medio);
+    padding-bottom: 10px;
+}
+
+.accessibility-option {
+    margin-bottom: 15px;
+}
+
+.accessibility-option label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: var(--color-gris-claro);
+}
+
+.option-description {
+    font-size: 0.8rem;
+    color: var(--color-gris-claro);
+    margin-top: 5px;
+    margin-left: 25px;
+    font-style: italic;
+}
+
+/* Estilos para texto a voz activo */
+body.text-to-speech-active {
+    cursor: pointer;
+}
+
+body.text-to-speech-active p:hover,
+body.text-to-speech-active h1:hover,
+body.text-to-speech-active h2:hover,
+body.text-to-speech-active h3:hover,
+body.text-to-speech-active h4:hover,
+body.text-to-speech-active a:hover,
+body.text-to-speech-active li:hover,
+body.text-to-speech-active label:hover {
+    background-color: rgba(0, 195, 255, 0.1);
+    outline: 1px dashed var(--color-cian);
+}
+
+.accessibility-option.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.accessibility-option input {
+    margin-right: 10px;
+}
+
+/* Estilos para alto contraste */
+body.high-contrast {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+body.high-contrast a,
+body.high-contrast h1,
+body.high-contrast h2,
+body.high-contrast h3,
+body.high-contrast h4,
+body.high-contrast p,
+body.high-contrast li,
+body.high-contrast label,
+body.high-contrast input,
+body.high-contrast textarea,
+body.high-contrast select,
+body.high-contrast button {
+    background-color: #000 !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+body.high-contrast .btn,
+body.high-contrast .btn-primary,
+body.high-contrast .btn-outline {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 2px solid #fff !important;
+}
+
+body.high-contrast .header,
+body.high-contrast .footer,
+body.high-contrast .section {
+    background-color: #000 !important;
+}
+
+body.high-contrast .parallax-bg {
+    opacity: 0.1 !important;
+}
+
+/* Estilos para texto ampliado */
+body.large-text {
+    font-size: 120% !important;
+}
+
+body.large-text h1 {
+    font-size: 2.8rem !important;
+}
+
+body.large-text h2 {
+    font-size: 2.4rem !important;
+}
+
+body.large-text h3 {
+    font-size: 2rem !important;
+}
+
+body.large-text p,
+body.large-text a,
+body.large-text li,
+body.large-text label,
+body.large-text input,
+body.large-text textarea,
+body.large-text select {
+    font-size: 1.2rem !important;
+    line-height: 1.8 !important;
+}
+
+/* Estilos para espaciado de texto */
+body.text-spacing {
+    letter-spacing: 1px !important;
+    word-spacing: 3px !important;
+}
+
+body.text-spacing p,
+body.text-spacing a,
+body.text-spacing li,
+body.text-spacing label,
+body.text-spacing h1,
+body.text-spacing h2,
+body.text-spacing h3,
+body.text-spacing h4 {
+    letter-spacing: 1px !important;
+    word-spacing: 3px !important;
+}
+
+/* Estilos para enfoque visible */
+.focus-visible:focus,
+.focus-visible:focus-visible {
+    outline: 3px solid var(--color-cian) !important;
+    outline-offset: 3px !important;
+}
+
+/* Estilos para cursor ampliado */
+body.large-cursor {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="%2300b4d8" stroke="white" stroke-width="1"/></svg>') 16 16, auto !important;
+}
+
+body.large-cursor a,
+body.large-cursor button,
+body.large-cursor input,
+body.large-cursor select,
+body.large-cursor textarea {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="%2300b4d8" stroke="white" stroke-width="1"/></svg>') 16 16, auto !important;
+}
+
+/* Estilos para lectores de pantalla (solo CSS) */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Estilos para enlaces de salto */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--color-cian);
+    color: var(--color-negro-carbon);
+    padding: 8px;
+    z-index: 9999;
+    transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .accessibility-panel {
+        width: 250px;
+    }
+}
